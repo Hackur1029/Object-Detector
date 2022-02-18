@@ -105,10 +105,10 @@ class App extends React.Component {
           muted
           playsInline
           ref={this.videoRef}
-          width="500"
-          height="500"
+          width="720"
+          height="650"
         />
-        <canvas style={this.styles} ref={this.canvasRef} width="500" height="500" />
+        <canvas style={this.styles} ref={this.canvasRef} width="720" height="650" />
       </div>
     );
   }
