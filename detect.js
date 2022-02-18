@@ -6,8 +6,8 @@ class App extends React.Component {
   // we are gonna use inline style
   styles = {
     position: 'fixed',
-    top: 150,
-    left: 150,
+    top: 100,
+    left: 100,
   };
 
 
@@ -105,10 +105,10 @@ class App extends React.Component {
           muted
           playsInline
           ref={this.videoRef}
-          width="720"
-          height="650"
+          width="500"
+          height="500"
         />
-        <canvas style={this.styles} ref={this.canvasRef} width="720" height="650" />
+        <canvas style={this.styles} ref={this.canvasRef} width="500" height="500" />
       </div>
     );
   }
